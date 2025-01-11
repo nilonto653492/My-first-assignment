@@ -182,3 +182,100 @@ margin: 31px;
             width: 2041;
             padding: 40px 60px 40px 60px 746px;
         }
+    .visions{
+          display: flex;
+          margin: 32px 160px;
+          justify-content: space-between;
+        }
+.future {
+  margin: 80px 160px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.plan{
+  /* margin: 24px 1260px 32px; */
+
+
+
+   margin-top: 24px;
+  margin-bottom: 32px;
+  margin-left: 160px;
+  margin-right: 160px; 
+  /* padding: 24px 160px; */
+}
+.digital{
+  width: 410px;
+  height: 325px;
+  padding:  32px 32px;
+  background-color:rgb(84, 144, 245, 20%);
+  border-radius: 16px;
+  margin: 0 24px;
+}
+.green{
+  width: 410px;
+  height: 325px;
+  padding:  32px 32px;
+  background-color:  #C6E4D6;
+  border-radius: 16px;
+  margin: 0 24px;
+
+}
+.modern{
+  width: 410px;
+  height: 325px;
+  padding:  32px 32px;
+  border-radius: 16px;
+  background-color:#F7EBCF;
+  margin: 0 24px;
+
+}
+.digital-fnt{
+  font-weight: bold;
+  font-size: 20px;
+}
+.vision-btn1{
+  width: 122px;
+  height: 41px;
+  background-color: #5490F5;
+  border-radius: 8px;
+  border: none;
+}
+.vision-btn2{
+  width: 122px;
+  height: 41px;
+  background-color:#09A15C;
+  border-radius: 8px;
+  border: none;
+ 
+}
+.vision-btn3{
+  width: 122px;
+  height: 41px;
+  color: white;
+  background-color:#FFC239;
+ border-radius: 8px;
+ border: none;
+}
+.yunus{
+  color: rgb(14, 14, 14,80%);
+  width: 1232px ;
+  height: 96px ;
+  /* margin: 48px 24px 12px 24px ; */
+  margin-top: 48px ;
+  margin-bottom:0;
+  margin-left: 184px;
+  margin-right: 184px; 
+  
+  
+}
+.y-name{
+  
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 184px 0 184px;
+}
+.y-status{
+  color: rgb(14, 14, 14,60%);
+  margin: 0 184px 0 184px;
+  
+}
