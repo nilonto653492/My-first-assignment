@@ -257,7 +257,7 @@ margin: 31px;
  border: none;
 }
 .yunus{
-  color: rgb(14, 14, 14,80%);
+  color: rgb(14, 14, 14, 80%);
   width: 1232px ;
   height: 96px ;
   /* margin: 48px 24px 12px 24px ; */
@@ -265,7 +265,6 @@ margin: 31px;
   margin-bottom:0;
   margin-left: 184px;
   margin-right: 184px; 
-  
   
 }
 .y-name{
@@ -278,4 +277,86 @@ margin: 31px;
   color: rgb(14, 14, 14,60%);
   margin: 0 184px 0 184px;
   
+}
+.recent-news{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 80px 160px 24px 160px;
+}
+.n-details{
+  margin: 0 160px 32px 160px;
+  color:rgb(14, 14, 14,70%);
+}
+.b-launch{
+  font-size: 40px;
+font-weight: bold;
+margin: 12px;
+
+}
+.image{
+  border-radius: 24px;
+}
+.banners{
+  margin: 0 160px 0 160px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.read-btn{
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  color: white;
+  background-color: #006A50;
+  border: none;
+ 
+  
+}
+.bengle{
+  margin: 32px;
+}
+.banners2{
+  margin: 0 160px 0 160px;
+  display: flex;
+}
+.bengle2{
+  margin: 32px;
+}
+.donate{ 
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px 160px 24px 160px;
+}
+.donation{
+  text-align: center;
+  margin: 0 248px 32px 248px;
+}
+.amount{
+  margin : 0 160px 0 160px;
+  display: flex
+}
+.nrml-amnt{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  width:252px ;
+  height:128px ;
+  padding: 40px;
+  /* margin: 0 24px 0 24px; */
+  
+}
+.spcl-amnt{
+  text-align: center;
+  padding: 40px;
+  margin: 0 24px 0 24px;
+  border-radius: 16px;
+  background-color: #C6E4D6;
+  font-size: 40px;
+  font-weight: bold;
+  width:252px ;
+  height:128px ;
+}
+.done{
+  background-color: #006A50;
 }
