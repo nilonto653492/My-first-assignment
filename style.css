@@ -113,15 +113,12 @@ header {
 }
 .nav {
   padding: 24px 50px;
-  /* margin:   160px ; */
-
   display: flex;
   justify-content: space-between;
 }
 .sign {
   height: 52px;
   width: 116px;
-  /* padding: 15px 30px ; */
   color: #006a50;
   border-width: 2px;
   border: solid #006a50;
@@ -150,7 +147,6 @@ header {
   text-align: left;
   font-size: 24px;
   color: #0e0e0e;
-  /* vertical-align: 16px; */
 }
 .para {
   font-size: 56px;
@@ -184,15 +180,16 @@ header {
   font-weight: bold;
 }
 .plan {
-  /* margin: 24px 1260px 32px; */
-
   margin-top: 24px;
   margin-bottom: 32px;
   margin-left: 160px;
   margin-right: 160px;
-  /* padding: 24px 160px; */
 }
 .digital {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
   width: 410px;
   height: 325px;
   padding: 32px 32px;
@@ -201,6 +198,10 @@ header {
   margin: 0 24px;
 }
 .green {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
   width: 410px;
   height: 325px;
   padding: 32px 32px;
@@ -209,6 +210,9 @@ header {
   margin: 0 24px;
 }
 .modern {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 410px;
   height: 325px;
   padding: 32px 32px;
@@ -243,10 +247,12 @@ header {
   border: none;
 }
 .yunus {
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
   color: rgb(14, 14, 14, 80%);
   width: 1232px;
   height: 96px;
-  /* margin: 48px 24px 12px 24px ; */
+
   margin-top: 48px;
   margin-bottom: 0;
   margin-left: 184px;
@@ -255,7 +261,7 @@ header {
 .y-name {
   font-size: 20px;
   font-weight: 600;
-  margin: 0 184px 0 184px;
+  margin: 45px 184px 0 184px;
 }
 .y-status {
   color: rgb(14, 14, 14, 60%);
@@ -275,11 +281,10 @@ header {
   font-weight: bold;
   margin: 12px;
 }
-.image {
-  border-radius: 24px;
-}
+
 .banners {
-  margin: 0 160px 0 160px;
+  padding: 48px;
+  margin: 32px 160px 0 160px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -292,14 +297,15 @@ header {
   border: none;
 }
 .bengle {
-  margin: 32px;
+  margin: 0 32px;
 }
 .banners2 {
-  margin: 0 160px 0 160px;
+  padding: 48px;
+  margin: 24px 160px 0 160px;
   display: flex;
 }
 .bengle2 {
-  margin: 32px;
+  margin: 0 32px;
 }
 .donate {
   font-size: 40px;
@@ -312,22 +318,35 @@ header {
   margin: 0 248px 32px 248px;
 }
 .amount {
+  display: flex;
+  justify-content: center;
+
   margin: 0 160px 0 160px;
   display: flex;
 }
 .nrml-amnt {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* text-align: center; */
   font-size: 40px;
+  /* margin: 24px; */
   font-weight: bold;
-  width: 252px;
+  width: 240px;
   height: 128px;
-  padding: 40px;
-  /* margin: 0 24px 0 24px; */
+  padding: 40px 0;
+}
+.cntr {
+  text-align: center;
+  justify-content: center;
 }
 .spcl-amnt {
-  text-align: center;
-  padding: 40px;
-  margin: 0 24px 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  /* margin: 24px; */
   border-radius: 16px;
   background-color: #c6e4d6;
   font-size: 40px;
@@ -335,11 +354,83 @@ header {
   width: 252px;
   height: 128px;
 }
+.others {
+  width: 1032px;
+  height: 64px;
+}
 .done {
   background-color: #006a50;
 }
 .btn-cntr {
-  margin: 0 auto;
   justify-content: center;
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.img-set1 {
+  border-radius: 24px;
+}
+.img-set2 {
+  border-radius: 24px;
+}
+.last-hd {
+  margin-top: 50px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+.last-img {
+  width: 120px;
+  height: 24px;
+  margin: 32px auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.othr {
+  display: flex;
+  justify-content: center;
+}
+.others {
+  color: rgb(14, 14, 14, 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  margin: 80px 0;
+  border-radius: 24px;
+  text-align: center;
+  background-color: #c6e4d6;
+  width: 1280px;
+  height: 395px;
+}
+.sub {
+  margin: 80px 0 0 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.email {
+  display: -ms-inline-grid;
+  margin: 24px 0 0 0;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 8px 0 0 8px;
+  width: 500px;
+  /* height: 56px; */
+}
+.submit {
+  border: none;
+  background-color: #006a50;
+  border-radius: 0 8px 8px 0;
+  width: 150px;
+  height: 55px;
+}
+.last-frm {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.fade {
+  color: rgb(14, 14, 14, 70%);
 }
